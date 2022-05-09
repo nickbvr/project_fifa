@@ -3,7 +3,7 @@
         <p class="footer__description">fut.urbest.store - Urbest.store is the newest store for buying FUT coins. We are using the safest method of FUT coins delivery that makes you not worry about bans. We are not interested in short-term deal with our customers, so we try to give you the best service to build long-lasting relationships with each other. We respect our clients and strive to provide the best platform which will be simple, convenient, safe and fast!</p>
         <ul class="footer__list">
             <li class="footer__item">
-                <a href="index.php" class="footer__link active">HOME</a>
+                <a href="/" class="footer__link active">HOME</a>
             </li>
             <li class="footer__item">
                 <a href="faq.php">F.A.Q</a>

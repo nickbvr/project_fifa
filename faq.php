@@ -1,11 +1,14 @@
 <?php
 include "header.php";
 ?>
+<script>
+    $('title').html('F.A.Q')
+</script>
 <main class="main">
     <div class="wrapper__small">
         <section class="current-page faq">
             <div>
-                <a class="home-link" href="index.php">Home</a>
+                <a class="home-link" href="/">Home</a>
                 <a class="current-link" href="faq.php">Frequently Asked Questions</a>
             </div>
             <h1 class="current-page__title">Frequently asked questions</h1>
@@ -110,7 +113,7 @@ include "header.php";
     <div class="wrapper__big">
         <ul class="footer__list">
             <li class="footer__item">
-                <a href="index.php">HOME</a>
+                <a href="/">HOME</a>
             </li>
             <li class="footer__item">
                 <a href="faq.php">F.A.Q</a>

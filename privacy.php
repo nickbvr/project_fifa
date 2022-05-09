@@ -1,11 +1,14 @@
 <?php
 include "header.php";
 ?>
+<script>
+    $('title').html('Privacy')
+</script>
 <main class="main">
     <div class="wrapper__small">
         <section class="current-page">
             <div>
-                <a class="home-link" href="index.php">Home</a>
+                <a class="home-link" href="/">Home</a>
                 <a class="current-link" href="privacy.php">Privacy Policy</a>
             </div>
             <h1 class="current-page__title">PRIVACY POLICY</h1>
@@ -51,7 +54,7 @@ include "header.php";
     <div class="wrapper__big">
         <ul class="footer__list">
             <li class="footer__item">
-                <a href="index.php">HOME</a>
+                <a href="/">HOME</a>
             </li>
             <li class="footer__item">
                 <a href="faq.php">F.A.Q</a>
@@ -67,9 +70,6 @@ include "header.php";
             </li>
             <li class="footer__item">
                 <a href="contacts.php">CONTACTS</a>
-            </li>
-            <li class="footer__item">
-                <a href="#!">EN</a>
             </li>
         </ul>
         <div class="footer__info">

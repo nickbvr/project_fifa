@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="shortcut icon" href="/img/head-logo.png" />
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/gotham">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
@@ -22,7 +23,7 @@
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
-                        <a href="index.php">HOME</a>
+                        <a href="/">HOME</a>
                     </li>
                     <li class="header__item">
                         <a href="faq.php">F.A.Q</a>

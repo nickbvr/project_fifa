@@ -1,6 +1,9 @@
 <?php
 include "header.php";
 ?>
+<script>
+    $('title').html('Home')
+</script>
 <main class="main home">
     <section class="intro">
         <div class="wrapper__big">
@@ -47,69 +50,7 @@ include "header.php";
                 </div>
             </div>
             <div class="calculate__wrapper" id="calculate__wrapper">
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">100,000</span>
-                    <span class="calculate__coin-discount">for $20.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">300,000</span>
-                    <span class="calculate__coin-discount">for $60.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">500,000</span>
-                    <span class="calculate__coin-discount">for $100.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">1,000,000</span>
-                    <span class="calculate__coin-discount">for $200.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">1,500,000</span>
-                    <span class="calculate__coin-discount">for $300.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">2,000,000</span>
-                    <span class="calculate__coin-discount">for $400.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">3,000,000</span>
-                    <span class="calculate__coin-discount">for $600.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">5,000,000</span>
-                    <span class="calculate__coin-discount">for $1000.00</span>
-                </div>
-                <div class="calculate__coin">
-                    <img src="/img/vector-down.svg" class="calculate__vector-down" alt="">
-                    <img src="/img/vector-up.svg" alt="" class="calculate__vector-up">
-                    <img src="/img/gold-coins.png" class="calculate__coin-img" alt="">
-                    <span class="calculate__coin-value">8,000,000</span>
-                    <span class="calculate__coin-discount">for $1600.00</span>
-                </div>
+
             </div>
         </div>
     </section>

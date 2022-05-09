@@ -14,12 +14,32 @@ $(function () {
         if (cur_url == link) {
             $(this).addClass('active');
         }
+        else if (cur_url == link + '#!') {
+            $(this).addClass('active');
+        }
+        else if (cur_url == '') {
+            $('.header__list li:first-child').addClass('active');
+        }
+        else if (cur_url == '' + '#!') {
+            $('.header__list li:first-child').addClass('active');
+        }
+       
     });
     $('.footer__list li').each(function () {
         var link = $(this).find('a').attr('href');
         if (cur_url == link) {
             $(this).addClass('active');
         }
+        else if (cur_url == link + '#!') {
+            $(this).addClass('active');
+        }
+        else if (cur_url == '') {
+            $('.footer__list li:first-child').addClass('active');
+        }
+        else if (cur_url == '' + '#!') {
+            $('.footer__list li:first-child').addClass('active');
+        }
+        
     });
 });
 
@@ -67,6 +87,8 @@ $('.calculate__coin').on('click',function(){
     setTimeout(()=>{$(this).children(".calculate__vector-up").css("transform", "scaleY(1)")},1);
     setTimeout(()=>{$(this).children(".calculate__vector-down").css("transform", "scaleY(-1)")},2);
 })
+$('.calculate__coin:first-child').addClass('active');
+$('.calculate__coin:first-child > .calculate__vector-up').css('transform', 'scaleY(1)');
 
 // COINS INPUT
 
