@@ -11,19 +11,12 @@ $(function () {
     var cur_url = location.split('/').pop();
     $('.header__list li').each(function () {
         var link = $(this).find('a').attr('href');
-        if (cur_url == link) {
+        if ((cur_url == link) || (cur_url == link + '#!')) {
             $(this).addClass('active');
         }
-        else if (cur_url == link + '#!') {
-            $(this).addClass('active');
-        }
-        else if (cur_url == '') {
+        else if ((cur_url == '') || (cur_url == '' + '#!')){
             $('.header__list li:first-child').addClass('active');
         }
-        else if (cur_url == '' + '#!') {
-            $('.header__list li:first-child').addClass('active');
-        }
-       
     });
     $('.footer__list li').each(function () {
         var link = $(this).find('a').attr('href');
