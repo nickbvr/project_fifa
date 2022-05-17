@@ -1,42 +1,39 @@
+// BURGER TOGGLE
+
 $('.burger').click(function (){
     $(this).toggleClass('active');
 });
 
-
+// BURGER TOGGLE
 
 // WINDOW LOCATION
 
 $(function () {
     var location = window.location.href;
     var cur_url = location.split('/').pop();
-    $('.header__list li').each(function () {
+    $('.header__item').each(function () {
         var link = $(this).find('a').attr('href');
-        if ((cur_url == link) || (cur_url == link + '#!')) {
+        if (cur_url.includes(link)) {
             $(this).addClass('active');
         }
-        else if ((cur_url == '') || (cur_url == '' + '#!')){
-            $('.header__list li:first-child').addClass('active');
+        else if (!cur_url.includes('.php')){
+            $('.header__item:first-child').addClass('active');
         }
     });
-    $('.footer__list li').each(function () {
+    $('.footer__item').each(function () {
         var link = $(this).find('a').attr('href');
-        if (cur_url == link) {
+        if (cur_url.includes(link)) {
             $(this).addClass('active');
         }
-        else if (cur_url == link + '#!') {
-            $(this).addClass('active');
-        }
-        else if (cur_url == '') {
-            $('.footer__list li:first-child').addClass('active');
-        }
-        else if (cur_url == '' + '#!') {
-            $('.footer__list li:first-child').addClass('active');
-        }
-        
+        else if (!cur_url.includes('.php')) {
+            $('.footer__item:first-child').addClass('active');
+        }        
     });
 });
 
 // WINDOW LOCATION
+
+// BLOCK OF COINS
 
 var array_value_coins = [100000,200000,500000,1000000,1500000,2000000,3000000,5000000,8000000];
 var price = 200/1000000;
@@ -82,6 +79,8 @@ $('.calculate__coin').on('click',function(){
 })
 $('.calculate__coin:first-child').addClass('active');
 $('.calculate__coin:first-child > .calculate__vector-up').css('transform', 'scaleY(1)');
+
+// BLOCK OF COINS
 
 // COINS INPUT
 
